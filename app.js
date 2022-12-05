@@ -1,14 +1,16 @@
 var g = G$('John', 'Doe');
-// g.greet();
+
+console.log(g);
+g.greet(true);
 
 
 g.greet().setLang('es').greet(true).log();
 
 
-$('#login').click(function(){
-  var loginGrtr = G$('John', 'Doe');
+// $('#login').click(function(){
+//   var loginGrtr = G$('John', 'Doe');
 
-  $('#logindiv').hide();
+//   $('#logindiv').hide();
 
-  loginGrtr.setLang($('#lang').val()).HTMLGreeting('#greeting', true).log();
-})
+//   loginGrtr.setLang($('#lang').val()).HTMLGreeting('#greeting', true).log();
+// })
